@@ -1,0 +1,176 @@
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+p {
+  color: grey;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 15%;
+  color: #fff;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: Montserrat-light;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding-bottom: 5.2%;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 26%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.3rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  text-align: center;
+  background: #ff8686eb;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width:17%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff8686eb;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+/* media */
+@media (max-width: 992px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta section */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15% 5%;
+}
+
+.cta-heading {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer {
+  text-align: center;
+  padding: 7% 10% 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.last {
+  font-family: Ubuntu;
+  font-weight: bold;
+}
